@@ -2,7 +2,6 @@ import "@/styles/globals.css";
 import { DefaultSeo } from "next-seo";
 import { ThemeProvider } from "next-themes";
 import type { AppProps } from "next/app";
-import type { NextWebVitalsMetric } from "next/app";
 
 /**
  * @description SEO를 위해 본인의 정보로 수정해주세요.
@@ -47,13 +46,6 @@ const DEFAULT_SEO = {
     },
   ],
 };
-
-// pages/_app.js 또는 src/app/layout.js
-export function reportWebVitals(metric: NextWebVitalsMetric) {
-  if (metric.label === "web-vital") {
-    console.log(metric); // 개발 중 확인용
-  }
-}
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
