@@ -1,4 +1,4 @@
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
