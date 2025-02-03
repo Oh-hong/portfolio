@@ -50,10 +50,10 @@ const DEFAULT_SEO = {
 const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
+      <SpeedInsights />
       <DefaultSeo {...DEFAULT_SEO} />
       <ThemeProvider attribute="class">
         <Component {...pageProps} />
-        <SpeedInsights />
       </ThemeProvider>
     </>
   );
