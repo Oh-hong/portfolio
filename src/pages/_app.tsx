@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 import { DefaultSeo } from "next-seo";
 import { ThemeProvider } from "next-themes";
 import type { AppProps } from "next/app";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 /**
  * @description SEO를 위해 본인의 정보로 수정해주세요.
  */
@@ -53,6 +53,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       <DefaultSeo {...DEFAULT_SEO} />
       <ThemeProvider attribute="class">
         <Component {...pageProps} />
+        <SpeedInsights />
       </ThemeProvider>
     </>
   );
