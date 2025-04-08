@@ -57,6 +57,16 @@
       "isTeam": true,
       "period": ["2024. 09", "2024. 10"],
       "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Zustand", "Tanstack-Query"]
+    },
+    {
+      "id": 3,
+      "name": "번개팅",
+      "description": "번개처럼 빠르게! 새로운 사람들과 만나봐요.",
+      "webUrl": "https://doitz.netlify.app/",
+      "repoUrl": "https://github.com/DoITFronts/Frontend/wiki",
+      "isTeam": true,
+      "period": ["2025. 02", "2025. 03"],
+      "stack": ["TypeScript", "Next.js", "Tailwind CSS", "webSocket", "Zustand", "Tanstack-Query"]
     }
   ],
 
@@ -86,7 +96,19 @@
       "id": 1,
       "name": "대림대학교 / 학사",
       "period": ["2023. 03", "2024. 02"],
-      "description": "로봇 자동화 공학과 전공"
+      "description": "로봇자동화공학과 전공"
+    },
+    {
+      "id": 2,
+      "name": "코드잇 스프린트 프론트엔드 과정",
+      "period": ["2024. 04", "2024. 10"],
+      "description": "JavaScript, TypeScript, React, Next.js 등 프론트엔드 개발자에게 필요한 기술 강의 수강\n3개의 팀 프로젝트 진행으로 함께 협업하는 방법과 다양한 기술을 활용하는 역량 익힘"
+    },
+    {
+      "id": 3,
+      "name": "코드잇 스프린트 프론트엔드 단기심화 과정",
+      "period": ["2025. 01", "2025. 03"],
+      "description": "CSS 심화, 웹브라우저 데이터 저장, 프론트엔드 테스팅(jest, ReactTestingLibrary) 기술 내용 수강\n디자이너, 백엔드 개발자와의 애자일한 협업 경험"
     }
   ],
 
